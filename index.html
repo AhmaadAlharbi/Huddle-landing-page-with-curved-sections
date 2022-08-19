@@ -31,7 +31,7 @@
         <button class="px-12 py-4 bg-pink text-white font-bold rounded-full">
           Get Started For Free
         </button>
-        <div class="mt-20">
+        <div class="mt-20 max-w-3xl">
           <img src="images/screen-mockups.svg" alt="" />
           <div class="flex justify-evenly items-center mt-20">
             <!-- left -->
@@ -51,10 +51,13 @@
       </div>
     </main>
     <!-- section GROW -->
-    <section id="grow" class="relative w-full h-full">
-      <div class="flex justify-evenly items-center mt-24 py-10 bg-veryPaleBlue">
+
+    <section class="relative" id="grow">
+      <div
+        class="flex flex-col md:flex-row justify-evenly items-center mt-40 py-10 bg-veryPaleBlue"
+      >
         <!-- text-container -->
-        <div class="">
+        <div class="relative">
           <h2 class="text-4xl font-bold text-veryDarkCyan mb-6">
             Grow Together
           </h2>
@@ -70,6 +73,47 @@
         </div>
       </div>
     </section>
-    <section class="mt-60">d</section>
+    <!-- section conversation -->
+    <section id="conversation">
+      <div
+        class="flex flex-col md:flex-row justify-evenly items-center mt-40 py-10"
+      >
+        <!-- text container -->
+        <div>
+          <h2 class="text-4xl font-bold text-veryDarkCyan mb-6">
+            Flowing Conversations
+          </h2>
+          <p class="max-w-md text-gray-400 text-xl">
+            You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a more natural
+            flow.
+          </p>
+        </div>
+        <!-- img container -->
+        <div class="max-w-xl">
+          <img src="images/illustration-flowing-conversation.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- section users -->
+    <section class="relative" id="user">
+      <div
+        class="flex flex-col md:flex-row justify-evenly items-center mt-40 py-10 bg-veryPaleBlue"
+      >
+        <!-- text-container -->
+        <div class="relative">
+          <h2 class="text-4xl font-bold text-veryDarkCyan mb-6">Your Users</h2>
+          <p class="max-w-md text-gray-400 text-xl">
+            It takes no time at all to integrate Huddle with your app's
+            authentication solution. This means, once signed in to your app,
+            your users can start chatting immediately.
+          </p>
+        </div>
+        <!-- image container -->
+        <div class="max-w-xl">
+          <img src="images/illustration-your-users.svg" alt="" />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
